@@ -1,0 +1,22 @@
+h1{
+    margin:0 auto;
+    margin-bottom:20px;
+    border-left:3px solid red;
+    background-color:lightgray;
+    padding-bottom:10px;
+}
+
+form{
+    margin:0 auto;
+    background-color:beige;
+    border-radius:10px;
+}
+
+div{
+    padding:20px;   
+}
+
+.submit{
+    color:white;
+    background:lightgray; 
+}
