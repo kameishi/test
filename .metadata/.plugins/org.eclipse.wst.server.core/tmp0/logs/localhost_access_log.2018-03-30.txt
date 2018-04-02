@@ -17,3 +17,9 @@
 0:0:0:0:0:0:0:1 - - [30/Mar/2018:16:52:52 +0900] "GET /HelloServlet/ HTTP/1.1" 200 203
 0:0:0:0:0:0:0:1 - - [30/Mar/2018:16:52:53 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
 0:0:0:0:0:0:0:1 - - [30/Mar/2018:16:55:22 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
+127.0.0.1 - - [30/Mar/2018:17:43:53 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Mar/2018:17:43:55 +0900] "GET /HelloServlet/ HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [30/Mar/2018:17:43:59 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [30/Mar/2018:17:44:03 +0900] "GET /HelloServlet/welcome.jsp HTTP/1.1" 200 345
+0:0:0:0:0:0:0:1 - - [30/Mar/2018:17:44:05 +0900] "POST /HelloServlet/WelcomeServlet HTTP/1.1" 200 67
+0:0:0:0:0:0:0:1 - - [30/Mar/2018:17:44:18 +0900] "POST /HelloServlet/WelcomeServlet HTTP/1.1" 200 71
