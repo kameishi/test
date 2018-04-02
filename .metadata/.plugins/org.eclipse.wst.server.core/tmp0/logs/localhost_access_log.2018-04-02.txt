@@ -1,0 +1,15 @@
+127.0.0.1 - - [02/Apr/2018:10:54:43 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:10:54:45 +0900] "GET /HelloServlet/WEB-INF/web.xml HTTP/1.1" 404 1017
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:10:55:35 +0900] "GET /HelloServlet/ HTTP/1.1" 200 372
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:10:55:39 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 624
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:10:56:20 +0900] "POST /HelloServlet/InquiryServlet HTTP/1.1" 200 105
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:10:56:28 +0900] "POST /HelloServlet/InquiryServlet HTTP/1.1" 200 106
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:10:57:52 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:10:57:54 +0900] "GET /HelloServlet/welcome.jsp HTTP/1.1" 200 345
+127.0.0.1 - - [02/Apr/2018:11:31:28 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:11:31:29 +0900] "GET /HelloServlet/ HTTP/1.1" 200 731
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:11:33:27 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 49
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:11:33:37 +0900] "GET /HelloServlet/TestServlet?username=&password= HTTP/1.1" 200 49
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:11:34:13 +0900] "GET /HelloServlet/TestServlet?username=k&password=y HTTP/1.1" 200 51
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:11:34:33 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 51
+0:0:0:0:0:0:0:1 - - [02/Apr/2018:11:34:50 +0900] "GET /HelloServlet/TestServlet?username=k&password=y HTTP/1.1" 200 51
