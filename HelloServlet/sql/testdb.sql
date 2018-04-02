@@ -9,4 +9,4 @@ password varchar(255)
 
 insert into test_table values(1,"taro","123");
 insert into test_table values(2,"jiro","456");
-insert into test_table values(3,"hanak","789");
+insert into test_table values(3,"hanako","789");
