@@ -1,0 +1,10 @@
+package Com.internousdev.webproj4.dao;
+
+import java.util.ArrayList;
+
+import Com.internousdev.webproj4.dto.InquiryDTO;
+
+public class InquiryDAO {
+	List<InquiryDTO> inquiryDTOList=new ArrayList<InquiryDTO>();
+
+}
